@@ -4,7 +4,7 @@
 #
 Name     : perl-Pod-LaTeX
 Version  : 0.61
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/T/TJ/TJENNESS/Pod-LaTeX-0.61.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TJ/TJENNESS/Pod-LaTeX-0.61.tar.gz
 Summary  : 'Convert Pod data to formatted Latex'
