@@ -4,7 +4,7 @@
 #
 Name     : perl-Pod-LaTeX
 Version  : 0.61
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/T/TJ/TJENNESS/Pod-LaTeX-0.61.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TJ/TJENNESS/Pod-LaTeX-0.61.tar.gz
 Summary  : 'Convert Pod data to formatted Latex'
@@ -14,6 +14,10 @@ Requires: perl-Pod-LaTeX-bin = %{version}-%{release}
 Requires: perl-Pod-LaTeX-man = %{version}-%{release}
 Requires: perl-Pod-LaTeX-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Pod::Find)
+BuildRequires : perl(Pod::ParseUtils)
+BuildRequires : perl(Pod::Parser)
+BuildRequires : perl(Pod::Select)
 
 %description
 Pod::LaTeX - convert Pod to latex using Pod::Parser
@@ -104,4 +108,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/LaTeX.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/LaTeX.pm

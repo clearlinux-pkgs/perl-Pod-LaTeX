@@ -1,0 +1,5 @@
+0.61
+perl(Pod::Find)
+perl(Pod::ParseUtils)
+perl(Pod::Parser)
+perl(Pod::Select)
